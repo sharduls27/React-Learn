@@ -8,3 +8,8 @@ ReactDOM.render(
   </div>,
   document.getElementById("root")
 );
+
+//pure javascript version
+var h1 = document.createElement("h1");
+h1.innerHTML = "hello world!!";
+document.getElementById("root").appendChild(h1);
